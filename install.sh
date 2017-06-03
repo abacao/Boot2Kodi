@@ -21,5 +21,8 @@ echo "needs_root_rights=yes" >> /etc/X11/Xwrapper.config
 # CP kodi.service to the correct place
 cp kodi.service /etc/systemd/system
 
+# Start Kodi on boot
+systemctl enable kodi
+
 # Start Kodi service
 systemctl start kodi
