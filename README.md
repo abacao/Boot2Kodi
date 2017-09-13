@@ -9,4 +9,4 @@ What you need to do:
 
 `cd Kodi17-UbuntuServer`
 
-`sudo ./install.sh`
+`sudo sh ./install.sh`
