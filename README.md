@@ -21,7 +21,7 @@ Shell script to install Kodi at a Ubuntu Server and at boot, go straight to Kodi
 
 `sudo sh ./install.sh`
 
-#### I would also accept a beer: <br>  BTC:  <br>
+#### If you liked my work, buy me a beer: <br>  BTC:  <br>
 ![alt text][logo]
 
 [logo]: https://raw.githubusercontent.com/abacao/minibian-debian-stretch/master/donate.png "Donate"
