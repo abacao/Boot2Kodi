@@ -8,7 +8,7 @@ add-apt-repository ppa:team-xbmc/ppa -y
 apt update -y && apt upgrade -y
 
 # install kodi and screen output
-apt install kodi xinit xorg dbus-x11 xserver-xorg-video-intel xserver-xorg-legacy pulseaudio -y
+apt install kodi xinit xorg dbus-x11 xserver-xorg-video-intel xserver-xorg-legacy pulseaudio upower -y
 
 # add user
 adduser --disabled-password --disabled-login --gecos "" kodi
@@ -24,6 +24,9 @@ echo "needs_root_rights=yes" >> /etc/X11/Xwrapper.config
 
 # CP kodi.service to the correct place
 cp kodi.service /etc/systemd/system
+
+# CP powermenu_in_kodi.pkla to the correct place
+cp powermenu_in_kodi.pkla /etc/polkit-1/localauthority/50-local.d
 
 # Start Kodi on boot
 systemctl enable kodi
