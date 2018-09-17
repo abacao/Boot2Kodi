@@ -1,4 +1,7 @@
 # Boot2Kodi
+
+Note - Feel free to do pull requests. I'm available to add new developments!
+
 #### Installation of Kodi into Ubuntu Server:
 
 #### Tested in:
