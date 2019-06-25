@@ -24,6 +24,7 @@ The following instructions are based on the last version of Ubuntu.
 3. Clone this repo like `git clone https://github.com/abacao/Boot2Kodi.git`
 4. `cd Boot2Kodi`
 5. Run the installation script `sudo sh ./install.sh`
+6. Reboot
 
 
 @chrisyokum, thanks for your input and help.
