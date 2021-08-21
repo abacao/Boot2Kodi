@@ -8,7 +8,7 @@ add-apt-repository ppa:team-xbmc/ppa -y
 apt update -y && apt upgrade -y
 
 # install kodi and screen output
-apt install kodi xinit xorg dbus-x11 xserver-xorg-video-intel xserver-xorg-legacy pulseaudio upower -y
+apt install kodi xinit xorg dbus-x11 xserver-xorg-video-intel xserver-xorg-legacy pulseaudio upower -y --no-install-recommends --no-install-suggests
 
 # add user
 adduser --disabled-password --disabled-login --gecos "" kodi
