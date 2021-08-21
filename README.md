@@ -10,6 +10,7 @@ Note - Feel free to do pull requests. I'm available to add new developments!
   - [x] 17.04
   - [x] 17.10
   - [x] 18.04
+  - [x] 20.10
 
 Please let me know if you have tested this and if something failed.
 
