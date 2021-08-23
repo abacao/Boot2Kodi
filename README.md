@@ -5,10 +5,7 @@ Note - Feel free to do pull requests. I'm available to add new developments!
 #### Installation of Kodi into Ubuntu Server:
 
 #### Tested in:
-  - [x] 16.04
-  - [x] 16.10
-  - [x] 17.04
-  - [x] 17.10
+  - [x] 16.04 (supported by CAnonical until 2024)
   - [x] 18.04
 
 Please let me know if you have tested this and if something failed.
