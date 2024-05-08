@@ -25,8 +25,11 @@ echo "needs_root_rights=yes" >> /etc/X11/Xwrapper.config
 # CP kodi.service to the correct place
 cp kodi.service /etc/systemd/system
 
-# CP powermenu_in_kodi.pkla to the correct place
+# CP powermenu_in_kodi.pkla for Ubuntu 22.04 and under:
 cp powermenu_in_kodi.pkla /etc/polkit-1/localauthority/50-local.d
+
+# CP powermenu_in_kodi.pkla for Ubuntu 24.04:
+cp powermenu_in_2404.rules /etc/polkit-1/rules.d/powermenu.rules
 
 # Start Kodi on boot
 systemctl enable kodi
