@@ -31,7 +31,7 @@ The following instructions are based on the lastest version of Ubuntu.
 6. Reboot
 
 
-FAQ:
+## Notes:
 - Memory Issues:
 In 20.04, the minimum requirement for RAM is 2Gb.
 In 22.04, the minimum requirement for RAM is 2Gb (4Gb for a physical machine and 2Gb for virtual).
