@@ -23,7 +23,7 @@ The following instructions are based on the lastest version of Ubuntu.
 1. Install Ubuntu Server with only "OpenSSH Server" option or "Ubuntu Server minimized" (some iso sources)
    1. For 18.04 -  "[netinstall](http://archive.ubuntu.com/ubuntu/dists/bionic/main/installer-amd64/current/images/netboot/mini.iso)"
    2. For 22.04 - "[server-22.04-iso](https://releases.ubuntu.com/22.04/ubuntu-22.04.4-live-server-amd64.iso)"
-   3. For 24.04 - "[server-24.04-iso](https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso)"
+   3. For 24.04 - "[server-24.04-iso](https://releases.ubuntu.com/24.04/)"
 2. Make sure git is installed or install git by `sudo apt install git -y`
 3. Clone this repo like `git clone https://github.com/abacao/Boot2Kodi.git`
 4. `cd Boot2Kodi`
